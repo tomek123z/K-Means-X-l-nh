@@ -5,12 +5,12 @@ Thuật toán sẽ tìm ra 1 số mầu phổ biến nhất của bức ảnh v�
 Về cơ bản, ảnh gồm nhiều pixels, mỗi pixels và 1 vector trong không gian 3 chiều.
 Sau đó dùng K-Means với đống vector trong không gian 3 chiều này như ở Unit trước.
 
-Chạy Kmeans với từng pixel của ảnh.
+Bài 3: Chạy Kmeans với từng pixel của ảnh.
 
-Hiển thị ảnh mới bằng numpy.
+Bài 4: Hiển thị ảnh mới bằng numpy.
  Nếu để số k cao như khoảng 16-24, bạn sẽ thu được 1 bức ảnh mới có cùng độ phân giải với ảnh gốc nhưng sẽ ít mầu hơn, nhìn sẽ gần giống, ảnh mới sẽ nhẹ hơn ảnh cũ khoảng 10 lần mà chất lượng khá giống nhau.
 Đây cũng là 1 cách để nén/làm nhẹ một bức ảnh.
 
-Tự reshape ma trận bằng tay, không dùng thư viện.
+Bài 5: Tự reshape ma trận bằng tay, không dùng thư viện.
  
 
